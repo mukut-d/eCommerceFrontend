@@ -10,6 +10,7 @@ const navLinks = [
   { name: "Products", icon: images.products, link: "/products" },
   { name: "Login", icon: images.login, link: "/login" },
   { name: "Signup", icon: images.signup, link: "/signup" },
+  { name: "Logout", icon: images.logout, link: "/" },
 ];
 
 const Navbar = () => {

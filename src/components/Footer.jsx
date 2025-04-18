@@ -10,6 +10,11 @@ const navLinks = [
     name: "Linkedin",
   },
   {
+    icon: images.github,
+    link: "https://github.com/mukut-d",
+    name: "Github",
+  },
+  {
     icon: images.leetcode,
     link: "https://leetcode.com/u/mukut-d/",
     name: "Leetcode",
@@ -28,11 +33,6 @@ const navLinks = [
     icon: images.geekforgeeks,
     link: "https://www.geeksforgeeks.org/user/mukutmdas2000/",
     name: "GeekForGeeks",
-  },
-  {
-    icon: images.github,
-    link: "https://github.com/mukut-d",
-    name: "Github",
   },
 ];
 
@@ -76,6 +76,7 @@ const Footer = () => {
         <div>
           <p>1st Lane Netaji Nagar</p>
           <p> Kantatoli Colony Ranchi-1, 834001</p>
+          <p>Jharkhand, India</p>
         </div>
       </div>
     </div>

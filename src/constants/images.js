@@ -12,6 +12,7 @@ import github from "../assets/icons/github.png";
 import codeforces from "../assets/icons/codeforces.png";
 import codechef from "../assets/icons/codechef.png";
 import geekforgeeks from "../assets/icons/geekforgeeks.png";
+import award from "../assets/award.png";
 
 export const images = {
   logo: logo,
@@ -28,4 +29,5 @@ export const images = {
   codechef: codechef,
   codeforces: codeforces,
   geekforgeeks: geekforgeeks,
+  award: award,
 };

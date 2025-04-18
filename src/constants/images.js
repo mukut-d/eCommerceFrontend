@@ -6,6 +6,12 @@ import logout from "../assets/logout.png";
 import signup from "../assets/signup.png";
 import login from "../assets/login.png";
 import about from "../assets/about.png";
+import leetcode from "../assets/icons/leetcode.png";
+import linkedin from "../assets/icons/linkedin.png";
+import github from "../assets/icons/github.png";
+import codeforces from "../assets/icons/codeforces.png";
+import codechef from "../assets/icons/codechef.png";
+import geekforgeeks from "../assets/icons/geekforgeeks.png";
 
 export const images = {
   logo: logo,
@@ -16,4 +22,10 @@ export const images = {
   signup: signup,
   login: login,
   about: about,
+  leetcode: leetcode,
+  linkedin: linkedin,
+  github: github,
+  codechef: codechef,
+  codeforces: codeforces,
+  geekforgeeks: geekforgeeks,
 };

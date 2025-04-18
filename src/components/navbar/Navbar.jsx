@@ -17,8 +17,10 @@ const Navbar = () => {
   return (
     <nav className="bg-red-100 flex p-4 items-center justify-between ">
       {/* Logo */}
-      <img src={images.logo} width={100} height={100} />
-      <div className="flex w-3/4 bg-blue-100 p-4">
+      <Link to={"/"}>
+        <img src={images.logo} width={100} height={100} />
+      </Link>
+      <div className="flex w-3/4 bg-blue-100 p-4" id="navbar">
         {navLinks?.map((nav, index) => (
           <NavLink
             key={index}

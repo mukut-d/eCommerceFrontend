@@ -38,7 +38,7 @@ const navLinks = [
 
 const Footer = () => {
   return (
-    <div className="flex bg-neutral-50 w-screen text-stone-900 py-5 px-4 items-center justify-center">
+    <div className="flex bg-neutral-50 text-stone-900 py-5 px-4 items-center justify-center">
       <div className="flex">
         <div className="flex flex-col m-5 p-2 ">
           <h4>More About Us</h4>

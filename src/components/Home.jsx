@@ -1,7 +1,10 @@
 import React from "react";
 import { images } from "../constants/images";
+import Card from "./Products/Card";
+import { homeProducts } from "../constants/data";
 
 const Home = () => {
+  const producs = homeProducts.slice(0, 4);
   return (
     <div className="flex flex-col flex-1 ">
       <div className="p-2 flex flex-col text-4xl text-gray-600  items-center justify-center">
@@ -22,7 +25,11 @@ const Home = () => {
           </span>
           <img src={images.award} width={50} height={40} />
         </div>
-        <div className="flex bg-red-200">card component here</div>
+        <div className="flex  justify-center">
+          {producs?.map((item) => (
+            <Card name={item?.name} icon={item?.icon} price={item?.price} />
+          ))}
+        </div>
       </div>
     </div>
   );

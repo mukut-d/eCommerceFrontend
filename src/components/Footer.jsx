@@ -6,7 +6,7 @@ import { images } from "../constants/images";
 const navLinks = [
   {
     icon: images.linkedin,
-    link: "https://linkedin.com/in/mukut-d/",
+    link: "https://www.linkedin.com/in/mukut-das/",
     name: "Linkedin",
   },
   {
@@ -50,6 +50,7 @@ const Footer = () => {
           <h4 className="px-5">Socials</h4>
           {navLinks?.slice(0, 2)?.map((item, index) => (
             <NavLink
+              target={"_blank"}
               key={index}
               icon={item.icon}
               link={item.link}

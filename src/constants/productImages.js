@@ -12,6 +12,8 @@ import plane from "../assets/products/plane.jpg";
 import car from "../assets/products/car.jpg";
 import bike from "../assets/products/bike.jpg";
 import cycle from "../assets/products/cycle.jpg";
+import phone from "../assets/products/phone.jpg";
+import table from "../assets/products/table.jpg";
 
 export const productImages = {
   tshirt: tshirt,
@@ -28,4 +30,6 @@ export const productImages = {
   train: train,
   bike: bike,
   lamp: lamp,
+  phone: phone,
+  table: table,
 };

@@ -38,15 +38,15 @@ const navLinks = [
 
 const Footer = () => {
   return (
-    <div className="flex bg-neutral-50 text-stone-900 py-5 px-4 items-center justify-center">
+    <div className="flex bg-neutral-50 text-stone-900 py-4 px-4 items-center justify-center">
       <div className="flex">
-        <div className="flex flex-col m-5 p-2 ">
+        <div className="flex flex-col m-2 p-2 ">
           <h4>More About Us</h4>
           <Link to={"/about"} className="underline">
             About
           </Link>
         </div>
-        <div className="flex flex-col m-5 p-2 ">
+        <div className="flex flex-col m-2 p-2 ">
           <h4 className="px-5">Socials</h4>
           {navLinks?.slice(0, 2)?.map((item, index) => (
             <NavLink
@@ -58,7 +58,7 @@ const Footer = () => {
             />
           ))}
         </div>
-        <div className="flex flex-col m-5 p-2 ">
+        <div className="flex flex-col m-2 p-2 ">
           <h4 className="px-5">Profiles</h4>
           {navLinks.slice(2)?.map((item, index) => (
             <NavLink
@@ -66,7 +66,7 @@ const Footer = () => {
               icon={item.icon}
               link={item.link}
               name={item.name}
-              className={"my-2"}
+              className={"my-1"}
             />
           ))}
         </div>

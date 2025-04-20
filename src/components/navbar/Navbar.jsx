@@ -6,8 +6,8 @@ import { NavLink } from "./NavLink";
 const navLinks = [
   { name: "Home", icon: images.home, link: "/" },
   { name: "About", icon: images.about, link: "/about" },
-  { name: "Cart", icon: images.cart, link: "/cart" },
   { name: "Products", icon: images.products, link: "/products" },
+  { name: "Cart", icon: images.cart, link: "/cart" },
   { name: "Login", icon: images.login, link: "/login" },
   { name: "Signup", icon: images.signup, link: "/signup" },
   { name: "Logout", icon: images.logout, link: "/" },

@@ -71,4 +71,14 @@ export const homeProducts = [
     icon: productImages.fan,
     price: 3500,
   },
+  {
+    name: "Phone",
+    icon: productImages.phone,
+    price: 1450,
+  },
+  {
+    name: "Table",
+    icon: productImages.table,
+    price: 1300,
+  },
 ];

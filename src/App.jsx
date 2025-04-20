@@ -11,13 +11,13 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col min-h-screen min-w-screen">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/cart" element={<Cart />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/cart" element={<Cart />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
       </Routes>

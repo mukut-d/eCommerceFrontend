@@ -14,6 +14,7 @@ import codechef from "../assets/icons/codechef.png";
 import geekforgeeks from "../assets/icons/geekforgeeks.png";
 import award from "../assets/award.png";
 import companyLogo from "../assets/companyLogo.jpg";
+import notFound from "../assets/notFound.png";
 
 export const images = {
   logo: logo,
@@ -32,4 +33,5 @@ export const images = {
   geekforgeeks: geekforgeeks,
   award: award,
   companyLogo: companyLogo,
+  notFound: notFound,
 };

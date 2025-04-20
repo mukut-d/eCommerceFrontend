@@ -26,8 +26,13 @@ const Home = () => {
           <img src={images.award} width={50} height={40} />
         </div>
         <div className="flex  justify-center">
-          {producs?.map((item) => (
-            <Card name={item?.name} icon={item?.icon} price={item?.price} />
+          {producs?.map((item, index) => (
+            <Card
+              key={index}
+              name={item?.name}
+              icon={item?.icon}
+              price={item?.price}
+            />
           ))}
         </div>
       </div>
